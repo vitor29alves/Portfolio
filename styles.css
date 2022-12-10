@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand&display=swap');
+
+
+body {
+    background-color: rgba(0, 0, 0, 0.875);
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.container {
+
+    width: 75%;
+    margin: auto
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Sobre mim*/
+
+.containerNome{
+    width: 55%;
+}
+
+.nome{
+
+}
+
+
+
+/*Redes Sociais*/
+
+.infoContainer {
+    width: 35%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+
+.containerSocialMedia {
+    display: flex;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.linkSocialMedia{
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+
+.socialMedia {
+    width: 20px;
+    margin-right: 5px;
+
+}
+
+/*Experiências Profissionais*/
+
+.containerExperiencias {
+    margin-bottom: 25px;
+}
+
+.containerCardExperiencias {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+
+}
+
+
+.cardExperiencias {
+    width: 250px;
+    height: 150px;
+    margin: 5px;
+    background-color: rgb(163, 15, 86);
+    display: flex;
+    flex-flow: wrap column;
+    text-align: center;
+}
+
+.cargo {
+    font-size: 14px;
+}
+
+.descricaoCargo {
+    font-size: 10px;
+}
+
+
+.periodoCargo {
+    font-size: 10px;
+}
+
+
+
+/* detalhes do curso */
+
+.containerFormacao {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    margin-bottom: 25px;
+}
+
+.cardFormacao {
+    width: 250px;
+    height: 150px;
+    background-color: rgb(163, 15, 86);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-flow: wrap;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+.curso {
+    width: 100%;
+    font-size: 14px;
+}
+
+.instituicao {
+    width: 100%;
+    font-size: 12px;
+}
+
+.duracaoCurso {
+    width: 100%;
+    font-size: 10px;
+}
+
+
+/*Competências*/
+
+.containerCompetencias {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    margin-bottom: 25px;
+
+}
+
+.cardCompetencias {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(163, 15, 86);
+
+}
+
+.imageCompetencias {
+    width: 50px;
+}
+
+
+
+/*Imersão Dev*/
+
+.containerImersaoDev {}
+
+.containerTextoImersaoDev {
+    width: 30%;
+    height: 250px;
+    background-color: rgba(163, 15, 87, 0.39);
+    padding: 5px;
+
+}
+
+
+.containerImagensImersao {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+}
+
+.imagensImersao {
+    width: 600px;
+    margin: 5px;
+}
