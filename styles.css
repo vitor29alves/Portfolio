@@ -2,7 +2,8 @@
 
 
 body {
-    background-color: rgba(0, 0, 0, 0.875);
+    background: rgb(133, 2, 57);
+    background: linear-gradient(0deg, rgba(133, 2, 57, 1) 0%, rgba(0, 0, 0, 1) 100%);
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
@@ -23,13 +24,11 @@ body {
 
 /*Sobre mim*/
 
-.containerNome{
+.containerNome {
     width: 55%;
 }
 
-.nome{
-
-}
+.nome {}
 
 
 
@@ -48,7 +47,7 @@ body {
     margin-bottom: 5px;
 }
 
-.linkSocialMedia{
+.linkSocialMedia {
     text-decoration: none;
     color: white;
     display: flex;
