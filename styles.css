@@ -16,6 +16,11 @@ body {
     margin: auto
 }
 
+.nome {
+    width: 100%;
+    font-size: 28px;
+}
+
 .cabecalho {
     display: flex;
     justify-content: space-between;
@@ -28,13 +33,15 @@ body {
     width: 55%;
 }
 
-.nome {}
+
 
 
 
 /*Redes Sociais*/
 
 .infoContainer {
+    margin-top: 25px;
+    margin-bottom: 5px;
     width: 35%;
     display: flex;
     flex-flow: column wrap;
@@ -44,7 +51,7 @@ body {
 .containerSocialMedia {
     display: flex;
     text-align: left;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .linkSocialMedia {
@@ -180,12 +187,28 @@ body {
 
 
 .containerImagensImersao {
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     flex-flow: wrap;
 }
 
 .imagensImersao {
-    width: 600px;
+    width: 100%;
     margin: 5px;
+}
+
+@media screen and (max-width: 768px){
+    .cabecalho{
+        display: inline-block;
+        
+    }
+
+    .containerNome{
+        width: 100%;
+    }
+
+    .infoContainer{
+        width: 100%;
+    }
 }
